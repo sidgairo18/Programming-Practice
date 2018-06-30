@@ -27,8 +27,6 @@ int binSearch(int a[], int l, int h, int key){
 
     if (l>h)
         return -1;
-    if (l == h)
-        return l;
 
     int mid = (l+h)/2;
 
@@ -47,7 +45,7 @@ int main(){
 
     int pivot = findPivot(a, 0,size-1);
     int ans = -99999;
-    int key = 100;
+    int key = 1;
     if (pivot == -1)
         ans = binSearch(a, 0, size-1, key);
     else if(key >= a[0])

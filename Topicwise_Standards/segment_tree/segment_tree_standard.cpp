@@ -80,7 +80,9 @@ int main(){
         if(q == 1){
 
             scanf("%d%d", &x, &l);
-            updateValue(st, 0, n-1, l, x, 0);
+            int diff = x-arr[l];
+            arr[l] = x;
+            updateValue(st, 0, n-1, l, diff, 0);
         }
         else if(q == 2){
 

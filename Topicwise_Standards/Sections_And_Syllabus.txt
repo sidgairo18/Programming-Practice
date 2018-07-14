@@ -1,0 +1,70 @@
+Section 1 - Data Structures
+
+1. Linked List
+2. Circular LL
+3. Doubly LL
+4. Stack
+5. Queue
+6. Array
+7. Binary Tree
+8. Binary Search Tree (BST)
+9. Heap
+10. Hashing
+11. Graph
+
+-----------------------------------------------------------------------
+
+Section 2 - Advanced Data Structures
+
+12. Advanced Lists
+13. Segment Trees
+14. Tries
+15. Binary Index Tree (BIT)
+16. Suffix Array and Suffix Tree
+17. AVL Tree
+18. Splay Tree
+19. B-Tree
+20. Red Black Tree
+21. K dimensional Trees
+22. Others
+23. Matrix
+
+-----------------------------------------------------------------------
+
+Section 3 - Algorithms
+
+1. Analysis of Algorithms
+2. Searching and Sorting
+3. Greedy Algorithms
+4. Dynamic Programming
+5. Pattern Searching
+6. Other String Algorithms
+7. Back Tracking
+8. Divide and Conquer
+9. Geometric Algorithms
+10. Mathematical Algorithms
+11. BIT Algorithms
+12. Graph Algorithms
+13. Randomized Algorithms
+14. Branch and Bound
+15. MISC
+
+-----------------------------------------------------------------------
+
+Section 4 - Number Theory
+
+1. Interesting Facts
+2. Number Theory Algorithms
+   - LCM and HCF
+3. Prime Factorization Divisors
+4. Fibonacci Numbers
+5. Catalan Numbers
+6. Modular Arithmetic
+7. Euler Totient Function
+8. nCr Computation
+9. Chinese Remainder Theorem
+10. Factorial
+11. Prime Numbers and Primality Tests
+12. Sieve Algorithms
+13. Divisibility and Large Numbers
+14. MISC

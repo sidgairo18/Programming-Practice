@@ -128,7 +128,7 @@ int main(){
     printf("%d\n", sz);
     
     for(int i = 0; i<sz; i++)
-        cout<<(vec[i].first+1)<<" "<<(vec[i].second+1)<<" "<<mp[make_pair(vec[i].first, vec[i].second)]<<endl;
+        printf("%d %d %d\n", vec[i].first + 1, vec[i].second +1, mp[make_pair(vec[i].first, vec[i].second)]);
 
     return 0;
 }

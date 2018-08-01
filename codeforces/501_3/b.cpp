@@ -46,7 +46,7 @@ int main(){
     int k = ans.size();
     printf("%d\n", k);
     for(int i = 0; i<k; i++)
-        printf("%d ", ans[i]);
+        printf("%d ", ans[i]+1);
     printf("\n");
 
     return 0;

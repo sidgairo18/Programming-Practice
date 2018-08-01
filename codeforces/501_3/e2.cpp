@@ -106,7 +106,7 @@ int main(){
                 v[i][j] += v[i-1][j];
         }
 
-    char check[105][105];
+    char check[1005][1005];
 
     for(int i = 0; i<n; i++)
         for(int j = 0; j<m; j++)
@@ -128,7 +128,7 @@ int main(){
     printf("%d\n", sz);
     
     for(int i = 0; i<sz; i++)
-        cout<<(vec[i].first+1)<<" "<<(vec[i].second+1)<<endl;
+        cout<<(vec[i].first+1)<<" "<<(vec[i].second+1)<<" "<<mp[make_pair(vec[i].first, vec[i].second)]<<endl;
 
     return 0;
 }

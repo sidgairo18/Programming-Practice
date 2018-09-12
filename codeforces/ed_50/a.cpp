@@ -8,7 +8,7 @@ int main(){
     cin>>n>>k;
     
     k = 2*k;
-    n = 2*n+1;
+    n = 2*n;
     //cout<<"k : "<<k<<" n : "<<n<<endl;
     long double ans = ceil(k/n);
 

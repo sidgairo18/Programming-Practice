@@ -26,19 +26,23 @@ int hamil_path_short(int n){
                 for(int k = 0; k<n; k++){
 
                     if(j!=k && (1<<k)&i && g[j][k]>=0 && dp[k][(1<<j)^i] != INT_MAX){
-                        cout<<"YES"<<endl;
+                        //cout<<"YES "<<i<<" "<<j<<" "<<k<<endl;
                         dp[j][i] = min(dp[j][i], dp[k][(1<<j)^i] + g[j][k]);
+                        //cout<<"dp "<<i<<" "<<j<<" "<<dp[j][i]<<endl;
                     }
                 }
             }
         }
     }
-    
+
     int ans = INT_MAX;
-    for(int i = 0; i<n; i++)
-        if(dp[i][1<<(n)-1] != INT_MAX){
-            ans = min(dp[i][1<<(n) - 1], INT_MAX);
+    for(int i = 0; i<n; i++){
+        //cout<<i<<" "<<dp[i][1<<n-1]<<" "<<((1<<n)-1)<<endl;
+        if(dp[i][(1<<n)-1] != INT_MAX){
+            //cout<<ans<<" "<<i<<endl;
+            ans = min(dp[i][(1<<n) - 1], ans);
         }
+    }
     return ans;
 }
 

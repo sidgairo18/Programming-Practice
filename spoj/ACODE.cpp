@@ -4,8 +4,8 @@ using namespace std;
 
 int main(){
 
-    while(true){
 
+    while(true){
         char s[5005];
         scanf("%s", s);
 
@@ -18,8 +18,10 @@ int main(){
             break;
         for(int i = 2; i<=n; i++){
             int d = 10*(s[i-2]-'0')+(int)(s[i-1]-'0');
-            dp[i] = dp[i-1];
-            if(d >= 1 && d <=26)
+            dp[i] = 0;
+            if((int)(s[i-1]-'0')>0)
+                dp[i] = dp[i-1];
+            if(d >= 10 && d <=26)
                 dp[i] += dp[i-2];
         }
 
